@@ -1,0 +1,36 @@
+app/
+bootstrap/
+vendor/
+Modules/
+  ├── Blog/
+      ├── Assets/
+      ├── Config/
+      ├── Console/
+      ├── Database/
+          ├── Migrations/
+          ├── Seeders/
+      ├── Entities/
+      ├── Http/
+          ├── Controllers/
+          ├── Middleware/
+          ├── Requests/
+      ├── Providers/
+          ├── BlogServiceProvider.php
+          ├── RouteServiceProvider.php
+      ├── Resources/
+          ├── assets/
+              ├── js/
+                ├── app.js
+              ├── sass/
+                ├── app.scss
+          ├── lang/
+          ├── views/
+      ├── Routes/
+          ├── api.php
+          ├── web.php
+      ├── Repositories/
+      ├── Tests/
+      ├── composer.json
+      ├── module.json
+      ├── package.json
+      ├── webpack.mix.js
